@@ -1,4 +1,4 @@
-# 🐶 Traffy
+# Traffy
 
 An Arduino-powered robotic dog that listens to ambient sound and reacts in real time. Wagging its tail when it's quiet, perking up its ears when it hears something, and barking back when things get loud.
 
@@ -8,9 +8,9 @@ An Arduino-powered robotic dog that listens to ambient sound and reacts in real 
 
 | Loudness | LED | Ears | Tail | Buzzer |
 |---|---|---|---|---|
-| Quiet (`< 4`) | 🟢 Green | Down | Wagging | — |
-| Mid (`≥ 4`) | 🔵 Blue | Half-up | Still | — |
-| Loud (`≥ 7`) | 🔴 Red | Up | Still | Bark |
+| Quiet (`< 4`) | Green | Down | Wagging | — |
+| Mid (`≥ 4`) | Blue | Half-up | Still | — |
+| Loud (`≥ 7`) | Red | Up | Still | Bark |
 
 ---
 
