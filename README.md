@@ -69,7 +69,7 @@ ReactingDog/
 
 ## How to build & upload
 
-1. Open `ReactingDog.ino` in the **Arduino IDE** (≥ 1.8) or **Arduino IDE 2**.
+1. Open `TraffyMain.ino` in the **Arduino IDE** (≥ 1.8) or **Arduino IDE 2**.
 2. Make sure the `Servo` library is available - it ships with the IDE by default.
 3. Select your board (**Tools → Board**) and port (**Tools → Port**).
 4. Click **Upload** (Ctrl + U).
