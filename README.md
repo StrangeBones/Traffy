@@ -47,24 +47,6 @@ Both servos  VCC/GND ──────► external 5 V / GND
 Passive buzzer (+) ────────► D10
                (-) ────────► GND
 ```
-
----
-
-## Project structure
-
-```
-ReactingDog/
-├── ReactingDog.ino      # Main sketch — setup() & loop()
-├── README.md
-├── LICENSE
-└── src/
-    ├── MicSensor.h/.cpp  # MAX4466 loudness measurement
-    ├── RGBLed.h/.cpp     # Common-cathode RGB LED
-    ├── TailServo.h/.cpp  # Tail wag / still
-    ├── EarServo.h/.cpp   # Ear positions (down / half / up)
-    └── Buzzer.h/.cpp     # Two-bark "Wuff" sound
-```
-
 ---
 
 ## How to build & upload
@@ -79,7 +61,7 @@ ReactingDog/
 
 ## Calibration
 
-Adjust the two thresholds in `ReactingDog.ino` to match your environment:
+Adjust the two thresholds in `TraffyMain.ino` to match your environment:
 
 ```cpp
 const int THRESHOLD_LOUD = 6-8;  // peak-to-peak amplitude for "loud"
