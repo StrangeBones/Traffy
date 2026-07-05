@@ -67,14 +67,6 @@ Adjust the two thresholds in `TraffyMain.ino` to match your environment:
 const int THRESHOLD_LOUD = 6-8;  // peak-to-peak amplitude for "loud"
 const int THRESHOLD_MID  =  3-4;  // peak-to-peak amplitude for "mid"
 ```
-
-The `MicSensor` constructor also accepts custom sample count and window length:
-
-```cpp
-// 8 windows × 30 ms each for a smoother reading in noisy environments
-MicSensor mic(A0, 8, 30);
-```
-
 ---
 
 ## License
