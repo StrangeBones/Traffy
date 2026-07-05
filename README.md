@@ -64,8 +64,8 @@ Passive buzzer (+) ────────► D10
 Adjust the two thresholds in `TraffyMain.ino` to match your environment:
 
 ```cpp
-const int THRESHOLD_LOUD = 6-8;  // peak-to-peak amplitude for "loud"
-const int THRESHOLD_MID  =  3-4;  // peak-to-peak amplitude for "mid"
+const int blueThreshold = 4;
+const int redThreshold = 7;
 ```
 ---
 
