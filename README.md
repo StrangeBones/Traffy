@@ -61,11 +61,11 @@ Passive buzzer (+) ────────► D10
 
 ## Calibration
 
-Adjust the two thresholds in `TraffyMain.ino` to match your environment:
+Adjust the threshold to match your environment:
 
 ```cpp
-const int blueThreshold = 4;
-const int redThreshold = 7;
+const int blueThreshold = 4; → mid input
+const int redThreshold = 7; → loud input
 ```
 ---
 
